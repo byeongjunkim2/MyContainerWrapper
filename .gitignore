@@ -1,11 +1,68 @@
 # Prerequisites
 *.d
 
+# ide files
+**/.vs/
+**/.code/
+**/.vscode/
+
+# output, logs, temp, etc.
+**/[Oo]ut/
+**/[Bb]in/
+**/[Rr]elease/
+**/[Dd]ebug/
+**/[Ll]ib/
+**/[Tt]esting/
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Tt]mp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uild**/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Dd]ocs/
+latex/
+html/
+gnu/
+x64/
+.test/
+.github/
+.DS_Store
+__MACOSX
+*.user
+**/[Ss]amples/
+
+# doxygen
+latex/
+texput.log
+
+#CMake
+CMakeFiles/
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
 # Compiled Object files
 *.slo
 *.lo
 *.o
+*.ko
 *.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
 
 # Precompiled Headers
 *.gch
@@ -25,8 +82,34 @@
 *.la
 *.a
 *.lib
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
 
 # Executables
 *.exe
 *.out
 *.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+.fake
